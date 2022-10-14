@@ -18,12 +18,12 @@
 <body>
     <!-- Header Section -->
     <header>
-        <div>
-            <img src="Images/Nitish.jpg" alt="Nitish Goswami Photo">
-            <h3>Nitish Goswami</h3>
-            <p>Computer Engineering Student</p>
+        <div class="user">
+            <img src="Images/Nitish.jpg"  alt="Nitish Goswami Photo">
+            <h3 class="name">Nitish Goswami</h3>
+            <p class="role">Computer Engineering Student</p>
         </div>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -33,38 +33,43 @@
             </ul>
         </nav>
     </header>
-    <hr>
+    <div id="menubar" class="fas-fa-bars"></div>
 
     <!-- Home Section -->
-    <section id="home">
-        <h1>I'M Nitish Goswami</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero optio magni fuga. Commodi sit blanditiis
-            quidem, aliquid magnam impedit quis quo asperiores hic dolores ab temporibus neque in distinctio sint!</p>
+    <section id="home" class="home">
+        <h1>I'M <span>Nitish Goswami</span></h1>
+        <p>I am MERN Stack developer and looking for software Engineering job.
+        Since childhood i am enthuastic about technology and gadets around me.
+        Its so fasicnating that how world is getting digitallize. I have grown by looking the 
+        evolution of various application through the year. Now its my time to do some impactful work
+        towards development of technology.
+    </p>
         <a href="#about">
-            <button>About Me <i class="fas fa-user"></i></button>
+            <button class="btn">About Me <i class="fas fa-user"></i></button>
         </a>
     </section>
-    <hr>
 
     <!-- About Section -->
-    <section id="about">
-        <h1>About Me</h1>
-        <div>
-            <div>
+    <section id="about" class="about">
+        <h1 class="heading"><span>About Me</span></h1>
+            <div class="row">
+                <div class="info">
                 <h3>
                     <span> Name : </span> Nitish Goswami
                 </h3>
                 <h3>
                     <span> Qualification : </span> B.Tech(CSE),Diploma(CSE)
                 </h3>
+
                 <h3>
                     <span> Language : </span> Hindi, English
                 </h3>
                 <a href="#">
-                    <button>Download CV <i class="fas fa-download"></i></button>
+                    <button class="btn">Download CV <i class="fas fa-download"></i></button>
                 </a>
             </div>
-            <div>
+
+            <div class="counter">
                 <div class="box">
                     <span>15+</span>   
                     <h3>Projects</h3>    
@@ -79,61 +84,59 @@
     <hr>
 
     <!-- Education Starts Here -->
-    <setion id="education">
-        <h1>This is my education</h1>
+    <setion id="education" class="education">
+        <h1 class="heading"><span>Education</span> </h1>
         <div class="box-container">
     
             <div class="box">
                 <i class="fas fa-graduation-cap"></i>
                 <span>2023</span>
-                <h3>Btech</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+                <h3>Bachelor Of Technology (CS)</h3>
+                <p>JC Bose University Of Technology & Management,Faridabad</p>
             </div>
         
             <div class="box">
                 <i class="fas fa-graduation-cap"></i>
                 <span>2019</span>
                 <h3>Diploma In Computer Science</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+                <p>Guru Brahma Nand Ji Government Polytechnic Nilokheri</p>
             </div>
     </setion>
     <hr>
 
     <!-- Portfolio -->
-    <section id="portfolio">
-        <h1>My Portfolio</h1>
-        <div>
+    <section id="portfolio" class="portfolio">
+        <h1 class="heading"> My <span>Portfolio</span> </h1>
+        <div class="box-container">
             <div class="box">
                 <img src="Images/download.jpeg" alt="Project 1">
             </div>
         
             <div class="box">
-                <img src="download.jpeg" alt="Project 1">
+                <img src="Images/download.jpeg" alt="Project 1">
             </div>
         
             <div class="box">
-                <img src="download.jpeg" alt="Project 1">
+                <img src="Images/download.jpeg" alt="Project 1">
             </div>
         
             <div class="box">
-                <img src="download.jpeg" alt="Project 1">
+                <img src="Images/download.jpeg" alt="Project 1">
+            </div>
+
+            <div class="box">
+                <img src="Images/download.jpeg" alt="Project 1">
             </div>
         
-            <div class="box">
-                <img src="download.jpeg" alt="Project 1">
-            </div>
         
-            <div class="box">
-                <img src="download.jpeg" alt="Project 1">
-            </div>
-    
+          
         </div>
     </section>
     <hr>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <h1 class="heading"> <span>contact</span> me </h1>
+    <section id="contact" class="contact">
+        <h1 class="heading"> <span>Contact</span> me </h1>
     
     <div class="row">
     
