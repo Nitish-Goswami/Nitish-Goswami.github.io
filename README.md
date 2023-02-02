@@ -1,2 +1,2 @@
 # Nitish-Goswami.gitub.io
-Resume Project
+[See My Portfolio](https://nitish-goswami.github.io/)
